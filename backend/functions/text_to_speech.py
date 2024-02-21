@@ -13,7 +13,8 @@ def convert_text_to_speech(message):
             "stability":0,
             "similarity_boost":0,
 
-        }
+        },
+        "model_id": "eleven_multilingual_v2",
     }
     # define voice
     voice_id1="onwK4e9ZLuTAKqWW03F9"
